@@ -1,0 +1,26 @@
+name: epub_reader
+description: A cross-platform EPUB reader with chapter text copy feature.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.1
+  file_picker: ^6.1.1
+  archive: ^3.4.9
+  xml: ^6.4.2
+  uuid: ^4.2.1
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
